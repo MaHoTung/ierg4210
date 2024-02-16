@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Fashion Store</title>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="index.html"><h1>Fashion Store</h1></a>
+            <div class="cart-icon" id="cart">
+                <!-- Hovering over this will show the cart list -->
+                Cart
+                <div class="shopping-list">
+                    <label>Shopping List</label>
+                    <div class="cart-item">
+                        <span>Product 1</span>
+                        <input type="number" value="1">
+                        <span>$100</span>
+                    </div>
+                    <div class="cart-item">
+                        <span>Product 2</span>
+                        <input type="number" value="1">
+                        <span>$200</span>
+                    </div>
+                    <button>Check Out</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="main-content">
+        <nav class="category-list">
+            <ul>
+                <li><a href="shoes.html">Shoes</a></li>
+                <li><a href="bags.html">Bags</a></li>
+                <li><a href="pants.html">Pants</a></li>
+            </ul>
+        </nav>
+        <div class="product-display">
+            <div class="breadcrumb"><a href="index.html">Home </a> > <span id="selected-category">Shoes</span></div>
+            <div class="products">
+                <!-- Repeat this structure for each product -->
+                <div class="product">
+                    <a href="shoe1.html">
+                        <img src="images/shoe1.png" alt="Shoe 1">
+                    </a>
+                    <a href="shoe1.html">
+                        <span class="product-name">Shoe 1</span>
+                    </a>
+                    <span class="product-price">$100</span>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <a href="shoe2.html">
+                        <img src="images/shoe2.png" alt="Shoe 2">
+                    </a>
+                    <a href="shoe2.html">
+                        <span class="product-name">Shoe 2</span>
+                    </a>
+                    <span class="product-price">$200</span>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <a href="shoe3.html">
+                        <img src="images/shoe3.png" alt="Shoe 3">
+                    </a>
+                    <a href="shoe3.html">
+                        <span class="product-name">Shoe 3</span>
+                    </a>
+                    <span class="product-price">$300</span>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <!-- Add more products as needed -->
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>© 2024 Fashion Store</p>
+    </footer>
+</body>
+</html>

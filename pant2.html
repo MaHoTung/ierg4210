@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Fashion Store</title>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="index.html"><h1>Fashion Store</h1></a>
+            <div class="cart-icon" id="cart">
+                <!-- Hovering over this will show the cart list -->
+                Cart
+                <div class="shopping-list">
+                    <label>Shopping List</label>
+                    <div class="cart-item">
+                        <span>Product 1</span>
+                        <input type="number" value="1">
+                        <span>$100</span>
+                    </div>
+                    <div class="cart-item">
+                        <span>Product 2</span>
+                        <input type="number" value="1">
+                        <span>$200</span>
+                    </div>
+                    <button>Check Out</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="main-content">
+        <nav class="category-list">
+            <ul>
+                <li><a href="shoes.html">Shoes</a></li>
+                <li><a href="bags.html">Bags</a></li>
+                <li><a href="pants.html">Pants</a></li>
+            </ul>
+        </nav>
+        <div class="product-page">
+            <div class="breadcrumb-product">
+                <a href="index.html">Home</a> > 
+                <a href="pants.html">Pants</a> > 
+                <span>Pant 2</span>
+            </div>
+            <div class="product-container">
+                <div class="product-image">
+                    <img src="images/pant2.png" alt="Full Size Product Image">
+                </div>
+        
+                <div class="product-details">
+                    <h2>Pant 2</h2>
+                    <p class="product-price">$200</p>
+                    <p class="product-inventory">Inventory: 3</p>
+                    <button class="add-to-cart-btn">Add to Cart</button>
+                    <div class="product-description">
+                        <p>It is Pant2</p>
+                        <!-- Add more paragraphs as needed -->
+                    </div>
+                </div>
+            </div>
+        </div>               
+    </section>
+    <footer>
+        <p>© 2024 Fashion Store</p>
+    </footer>
+</body>
+</html>
